@@ -1,0 +1,31 @@
+# Co-author affiliations and the journal / DOI should be confirmed and
+# filled in before publication (see the "TODO" fields under preferred-citation).
+cff-version: 1.2.0
+message: "If you use this software, please cite both the software itself and the accompanying paper (see preferred-citation)."
+title: "Bayesian gene–environment interactions in infant attachment: reproducibility pipeline"
+type: software
+version: 1.0.0
+date-released: "2026-06-25"
+license: MIT
+repository-code: "https://github.com/dekoning-lab/gxe-brms-repo"
+authors:
+  - given-names: Amelia
+    family-names: Potter-Dickey
+  - given-names: Nicole
+    family-names: Letourneau
+  - given-names: "A. P. Jason"
+    family-names: de Koning
+    email: jason.de.koning@gmail.com
+    affiliation: "University of Calgary"
+preferred-citation:
+  type: article
+  title: "Bayesian Evidence for Modest Effects of Individual Genes and Parenting on Infant Attachment Security"
+  year: 2026
+  journal: "TODO: journal (update on acceptance)"
+  authors:
+    - given-names: Amelia
+      family-names: Potter-Dickey
+    - given-names: Nicole
+      family-names: Letourneau
+    - given-names: "A. P. Jason"
+      family-names: de Koning
