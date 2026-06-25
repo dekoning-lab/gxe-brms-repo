@@ -1,0 +1,43 @@
+# Real cohort data — never commit
+data/Fulldata*.txt
+data/Fulldata*.xlsx
+data/APRON*.xlsx
+data/imputed_datasets_for_brms_m*.rds
+data/mice_imputed_*.rds
+data/Kobor_lab_genotype_summary_*.xlsx
+data/*.csv
+
+# But keep the synthetic dataset and the data/README
+!data/synthetic/
+!data/README.md
+
+# Intermediate / output
+results/
+*.rds
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.synctex.gz
+
+# R session
+.Rhistory
+.RData
+.Rproj.user/
+renv/library/
+renv/local/
+renv/staging/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.python-version
+
+# macOS / editor cruft
+.DS_Store
+*~
+.idea/
+.vscode/
